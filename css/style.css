@@ -19,9 +19,10 @@ h3{font-size: 28px;}
 h4{font-size: 18px; line-height: 1.4em;}
 
 p{
-    letter-spacing: 1px;
-    color: #c3c3c3;
-    font-weight: lighter;
+    /*letter-spacing: 1px;
+    color: #c3c3c3;*/
+    font-weight: 300;
+	font-size: 20px;
 }
 
 
@@ -35,9 +36,53 @@ a, a:active, a:focus {
 outline: none;
 }
 
+
+#return-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.7);
+    width: 50px;
+    height: 50px;
+    display: block;
+    text-decoration: none;
+    -webkit-border-radius: 35px;
+    -moz-border-radius: 35px;
+    border-radius: 35px;
+    display: none;
+    -webkit-transition: all 0.3s linear;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+	z-index: 2;
+}
+#return-to-top i {
+    color: #fff;
+    margin: 0;
+    position: relative;
+    left: 12px;
+    top: 2px;
+    font-size: 40px;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+#return-to-top:hover {
+    background: rgba(0, 0, 0, 0.9);
+}
+#return-to-top:hover i {
+    color: #fff;
+    top: -7px;
+}
+
+
 #services{text-align: center;}
 .col-md-4, .col-md-6{padding-bottom: 50px;}
-.col-md-3 {padding: 0;}
+
 
 .sectionhead{
     text-align: center;
@@ -50,6 +95,7 @@ hr.separetor{
     color: #363942;
     border-top: 2px solid #ea9312;
 }
+
 
 
 .btn-default{
@@ -535,7 +581,7 @@ ABOUT SECTION
 
 #about h2 {
 	font-family: 'Muli', sans-serif;
-    font-size: 65px;
+    font-size: 55px;
     color: #626262;
 	text-align:center;
 	font-weight:300;
@@ -545,10 +591,10 @@ ABOUT SECTION
 #about h2 .line{ border-bottom:3px solid #a7dffe}
 
 #about h4 {
-    font-size: 26px;
-    line-height: 32px;
+    font-size: 20px;
+    line-height: 30px;
     padding-bottom: 60px;
-	font-weight:200;
+	font-weight:300;
 	color:#343434;
 	padding-top: 85px;
 }
@@ -579,7 +625,7 @@ PORTFOLIO SECTION
 
 #portfolio h2 {
 	font-family: 'Muli', sans-serif;
-    font-size: 65px;
+    font-size: 55px;
     color: #626262;
 	text-align:center;
 	font-weight:300;
@@ -589,10 +635,10 @@ PORTFOLIO SECTION
 #portfolio h2 .line{ border-bottom:3px solid #a7dffe}
 
 #portfolio h4 {
-    font-size: 26px;
-    line-height: 32px;
+    font-size: 20px;
+    line-height: 30px;
     padding-bottom: 40px;
-	font-weight:200;
+	font-weight:300;
 	color:#343434;
 	
 }
@@ -667,7 +713,7 @@ SERVICES SECTION
 
 #services h2 {
 	font-family: 'Muli', sans-serif;
-    font-size: 65px;
+    font-size: 55px;
     color: #626262;
 	text-align:center;
 	font-weight:300;
@@ -678,8 +724,8 @@ SERVICES SECTION
 
 #services h4 {
 	font-family: "Roboto Condensed";
-    font-size: 60px;
-    line-height: 32px;
+    font-size: 50px;
+    line-height: 30px;
     padding-bottom: 15px;
 	font-weight:600;
 	color:#343434;
@@ -740,7 +786,7 @@ TESTIMONIAL SECTION
 }
 #testimonials h2 {
 	font-family: 'Muli', sans-serif;
-    font-size: 65px;
+    font-size: 55px;
     color: #626262;
 	text-align:center;
 	font-weight:300;
@@ -751,7 +797,7 @@ TESTIMONIAL SECTION
 
 #testimonials h4 {
 	font-family: "Roboto Condensed";
-    font-size: 60px;
+    font-size: 50px;
     line-height: 32px;
     padding-bottom: 15px;
 	font-weight:600;
@@ -793,7 +839,7 @@ TEAM SECTION
 }
 #teams h2 {
 	font-family: 'Muli', sans-serif;
-    font-size: 65px;
+    font-size: 55px;
     color: #626262;
 	text-align:center;
 	font-weight:300;
@@ -804,7 +850,7 @@ TEAM SECTION
 
 #teams h4 {
 	font-family: "Roboto Condensed";
-    font-size: 60px;
+    font-size: 50px;
     line-height: 32px;
     padding-bottom: 15px;
 	font-weight:600;
@@ -855,8 +901,8 @@ display: block;
 border-radius: 2px;
 background-color: #fafafa;
 padding: 105px 50px 50px 40px;
-font-size: 25px;
-font-weight: 200;
+font-size: 18px;
+font-weight: 300;
 margin: -100px 0 0;
 line-height: 32px;
 box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
@@ -873,7 +919,7 @@ figure.snip1167 .author {
 }
 figure.snip1167 .author h5 {
   	margin: 0;
-	font-size: 54px;
+	font-size: 46px;
 	font-family: "Roboto Condensed";
 	color: rgb(254, 128, 44);
 	font-weight: bold;
@@ -882,7 +928,7 @@ figure.snip1167 .author h5 span {
   font-weight: 300;
 text-transform: none;
 display: block;
-font-size: 30px;
+font-size: 26px;
 font-family: "Roboto Condensed";
 color: rgb(0, 0, 0);
 }
@@ -951,13 +997,13 @@ joinus SECTION
 
 #joinus .sectionhead {
     text-align: center;
-    padding-top: 20px;
+    padding-top: 60px;
     padding-bottom: 30px;
 }
 
 #joinus h2 {
 	font-family: 'Muli', sans-serif;
-    font-size: 65px;
+    font-size: 55px;
     color: #626262;
 	text-align:center;
 	font-weight:300;
@@ -967,15 +1013,15 @@ joinus SECTION
 #joinus h2 .line{ border-bottom:3px solid #a7dffe; font-family: 'Roboto', sans-serif;}
 
 #joinus h4 {
-    font-size: 26px;
-    line-height: 32px;
+    font-size: 20px;
+    line-height: 30px;
     padding-bottom: 40px;
-	font-weight:200;
+	font-weight:300;
 	color:#343434;
 	
 }
 #joinus h3 {
-    font-size: 35px;
+    font-size: 30px;
     line-height: 32px;
     padding-bottom: 10px;
 	font-weight:400;
@@ -993,7 +1039,7 @@ contactus SECTION
     margin-top: 0px;
     padding: 0px 0;
     text-align: center;
-	margin-bottom: 70px;
+	margin-bottom: 130px;
 }
 
 #contactus .sectionhead {
@@ -1004,7 +1050,7 @@ contactus SECTION
 
 #contactus h2 {
 	font-family: 'Muli', sans-serif;
-    font-size: 65px;
+    font-size: 55px;
     color: #626262;
 	text-align:center;
 	font-weight:300;
@@ -1014,7 +1060,7 @@ contactus SECTION
 #contactus h2 .line{ border-bottom:3px solid #a7dffe;}
 
 #contactus h4 {
-    font-size: 26px;
+    font-size: 20px;
     line-height: 32px;
     padding-bottom: 0px;
 	font-weight:300;
@@ -1022,7 +1068,7 @@ contactus SECTION
 	font-family: "Roboto Condensed";
 }
 #contactus h3 {
-    font-size: 28px;
+    font-size: 22px;
     line-height: 32px;
     padding-bottom: 0px;
 	font-weight:600;
@@ -1074,7 +1120,7 @@ footer .bigicon,footer p {
   display: inline;
   padding: 10px 20px 10px 0;
   letter-spacing: 0;
-  color: #fff;font-family: "Roboto Condensed";font-size: 26px; font-weight:200;
+  color: #fff;font-family: "Roboto Condensed";font-size: 20px; font-weight:200;
 }
 
 .footersocial li {

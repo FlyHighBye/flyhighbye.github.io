@@ -1,7 +1,7 @@
 /* Medium Devices, Desktops */
 @media only screen and (max-width : 1024px) {    
     /*HREO AREA */
-    #hero{max-height: 660px;}    
+        
     
     /* FEATURED CLIENTS SECTION*/
     #clients img{height: 50px;}
@@ -11,7 +11,7 @@
 @media only screen and (max-width : 980px) {
     
     /*HREO AREA */
-    #hero{height: 540px;}
+    
     
     /*ABOUT SECTION*/
     #about{padding-top: 40px;}
@@ -38,7 +38,89 @@
         padding-left: 30px;
         overflow: hidden;
     }
-    .collapse.in{display:block !important;}
+    .collapse.in{display:block !important;background:rgba(0, 0, 0, 0.76);}
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 786px) {
+	
+	
+	.collapse.in{display:block !important;background:rgba(0, 0, 0, 0.76);}
+	
+	#hero {
+    color: #fff;
+    text-align: center;
+    background: url(../img/banner_bg.jpg)no-repeat;
+    background-size: 100%;
+    overflow: hidden;
+    height: 35vh;
+    position: relative;
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+	}
+    
+	#about h2 {
+    font-family: 'Muli', sans-serif;
+    font-size: 55px;
+    color: #626262;
+    text-align: center;
+    font-weight: 300;
+    padding-bottom: 0px;
+    color: #5c5c5c;
+	}
+	
+	
+	#about h4 {
+    font-size: 20px;
+    line-height: 30px;
+    padding-bottom: 60px;
+    font-weight: 300;
+    color: #343434;
+    padding-top: 40px;
+	}
+	
+	#portfolio .mobilescreen {
+    width: 100%;
+    height: 215px;
+    margin: 0 auto;
+    padding: 0px 0 0 0;
+	}
+	
+	
+	#portfolio .mobilebg {
+    background: transparent;
+    height: 241px;
+    width: 100%;
+    margin: 0 auto;
+	}
+	
+	#contactus .col-md-12 {
+    background: #f0f1f4;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-orient: vertical !important;
+    -webkit-box-direction: normal !important;
+    -webkit-flex-direction: column !important;
+    -ms-flex-direction: column !important;
+    flex-direction: column !important;
+	}
+	
+	.socials {
+    text-align: left;
+    margin-bottom: 10px;
+}
+	
 }
 
 
@@ -54,7 +136,7 @@
 
     
     /*Hero area*/
-    #hero{height: 400px;}    
+      
     .herocontent{padding-top: 30px;}
     
     /*About section*/
@@ -64,19 +146,19 @@
     #shotsByPlayerId li {width: 96%;}
     
     /*Footer*/
-    .footerlinks li{display: none;}       
+          
 }
 
 /* Smaller Mobile Devices */
 @media only screen and (max-width : 480px) {
-    #hero{height: 320px;}    
+   
     #clients {display: none;}
     .footersocial li{font-size: 1.5em}
 }
 
 /* Smallest Mobile Devices */
 @media only screen and (max-width : 320px) {
-    #hero{height: 480px;}
+    
     .herocontent{padding-top: 100px; padding-bottom: 30px;}
 
 }
